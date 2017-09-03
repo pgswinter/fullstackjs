@@ -44,5 +44,4 @@ class Contest extends Component{
 		)
 	}
 }
-
 export default Contest

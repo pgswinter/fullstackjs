@@ -33,7 +33,6 @@ render(
 	// **** after refactor
 	document.getElementById('app')
 )
-
 setTimeout(function(){
 	render(
 		<h2>Clear</h2>,

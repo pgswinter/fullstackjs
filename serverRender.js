@@ -77,5 +77,4 @@ const serverRender = (contestId) =>
 			// **** after refactor
 		});
 // **** Server side routing for a contest
-
 export default serverRender;

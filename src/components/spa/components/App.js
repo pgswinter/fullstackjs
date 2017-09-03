@@ -14,7 +14,6 @@ const pushState = (obj, url) => {
 const onPopState = handler => {
 	window.onpopstate = handler;
 }
-
 class App extends Component{
 	constructor(props, context){
 		super(props, context)
@@ -90,7 +89,6 @@ class App extends Component{
 	// **** fetch Names DB
 
 	// **** fetch Names DB
-
 	// handleChange(e){
 	// 	this.setState({
 	// 		inputText: e.target.value

@@ -1,4 +1,4 @@
-webpackJsonp([0],{
+webpackHotUpdate(0,{
 
 /***/ "+KdC":
 /***/ (function(module, exports, __webpack_require__) {
@@ -21885,45 +21885,9 @@ module.exports = __webpack_require__("tIFN");
 /***/ }),
 
 /***/ "n5Qe":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-exports.addName = exports.fetchNames = exports.fetchContestList = exports.fetchContest = undefined;
-
-var _axios = __webpack_require__("mtWM");
-
-var _axios2 = _interopRequireDefault(_axios);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var fetchContest = exports.fetchContest = function fetchContest(contestId) {
-	return _axios2.default.get('/api/contests/' + contestId).then(function (resp) {
-		return resp.data;
-	});
-};
-
-var fetchContestList = exports.fetchContestList = function fetchContestList() {
-	return _axios2.default.get('/api/contests').then(function (resp) {
-		return resp.data.contests;
-	});
-};
-
-var fetchNames = exports.fetchNames = function fetchNames(nameIds) {
-	return _axios2.default.get('/api/names/' + nameIds.join(',')).then(function (resp) {
-		return resp.data.names;
-	});
-};
-
-var addName = exports.addName = function addName(newName, contestId) {
-	return _axios2.default.post('/api/names', { newName: newName, contestId: contestId }).then(function (resp) {
-		return resp.data;
-	});
-};
+throw new Error("Module build failed: SyntaxError: D:/FULLSTACKJS/src/api.js: Unexpected token (1:1)\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m   | \u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 2 | \u001b[39m\u001b[36mimport\u001b[39m axios from \u001b[32m'axios'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 3 | \u001b[39m\n \u001b[90m 4 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m fetchContest \u001b[33m=\u001b[39m contestId \u001b[33m=>\u001b[39m {\u001b[0m\n");
 
 /***/ }),
 
@@ -27255,5 +27219,5 @@ function symbolObservablePonyfill(root) {
 
 /***/ })
 
-},["IxWO"]);
+})
 //# sourceMappingURL=modules.map

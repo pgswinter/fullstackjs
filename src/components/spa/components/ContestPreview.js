@@ -23,5 +23,4 @@ class ContestPreview extends Component{
 // 	categoryName: React.PropTypes.string.isRequired,
 // 	contestName: React.PropTypes.string.isRequired
 // }
-
 export default ContestPreview

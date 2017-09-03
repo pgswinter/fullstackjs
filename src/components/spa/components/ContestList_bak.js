@@ -12,5 +12,4 @@ const ContestList = ({contests,onContestClick}) => (
 // ContestList.propTypes = {
 // 	contests: PropTypes.array
 // };
-
 export default ContestList;
