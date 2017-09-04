@@ -9,7 +9,7 @@
     "build:dev": "webpack --env=dev --progress --profile --colors --watch",
     "build:dist": "webpack --env=prod --progress --profile --colors",
     "insertdata": "node myDataMongo.js",
-    "updatedata": "node myUpdateMongo.js",
+    "updatedata": "node myUpdateMongo.js"
   },
   "author": "Anh(Robert)T. NGUYEN",
   "license": "MIT",

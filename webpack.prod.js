@@ -7,7 +7,7 @@ const publicPath = "./";
 
 module.exports = Merge(CommonConfig, {
 	output:{
-		path: path.join(__dirname, './dist'),
+		path: path.join(__dirname, './views/product'),
 		filename: '[name].[chunkhash].js',
 		publicPath: publicPath,
 		sourceMapFilename: '[name].map'

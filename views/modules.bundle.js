@@ -7904,14 +7904,6 @@ _react2.default.createElement(_App2.default, { initialData: window.initialData }
 document.getElementById('app'));
 // import configureStore from '../redux/store'
 
-setTimeout(function () {
-	(0, _reactDom.render)(_react2.default.createElement(
-		'h2',
-		null,
-		'Clear'
-	), document.getElementById('root'));
-}, 5000);
-
 /***/ }),
 
 /***/ "J/I/":

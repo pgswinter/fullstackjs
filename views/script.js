@@ -1,0 +1,1 @@
+window.initialData = JSON.stringify(initialData);

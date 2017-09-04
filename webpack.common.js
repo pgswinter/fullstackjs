@@ -5,7 +5,7 @@ const WebpackChunkHash = require('webpack-chunk-hash');
 const ChunkManifestPlugin = require('chunk-manifest-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPugPlugin = require('html-webpack-pug-plugin');
-const publicPath = "./dist/";
+const publicPath = "/";
 
 module.exports={
 	entry:{
@@ -27,8 +27,8 @@ module.exports={
 	    //   inlineManifest: false
 	    // }),
 	    new HtmlWebpackPlugin({
-			template: 'src/components/spa/index.html',
-			chunksSortMode: 'dependency'
+			// template: 'src/components/spa/index.html',
+			// chunksSortMode: 'dependency'
 		}),
 	 //    new HtmlWebpackPlugin({
 		// 	filetype: 'pug'
@@ -45,7 +45,7 @@ module.exports={
 		})
 	],
 	output:{
-		path: path.join(__dirname, './dist'),
+		path: path.join(__dirname, '/views'),
 		// filename: '[name].bundle.js',
 		filename: '[name].[contenthash].js',
 		publicPath: publicPath,

@@ -84,7 +84,7 @@ router.get('/contests/:contestId', (req,res) => {
 	// **** Loading data from MONGO DB
 	mdb.collection('contests')
 		// .findOne({id:Number(req.params.contestId)})
-		.findOne({_id:ObjectID(req.params.contestId)}) // Change to use Object ID
+		.findOne({ '_id': ObjectID(req.params.contestId)}) // Change to use Object ID
 		.then(contest => res.send(contest))
 		.catch(error => {
 			console.log(error);
